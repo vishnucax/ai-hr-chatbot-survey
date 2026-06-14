@@ -29,15 +29,15 @@ export default function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center gap-3 mb-6">
               <Image
-                src="/mallichepp-logo.png"
-                alt="MalliChepp"
+                src="/rhodnet-logo.png"
+                alt="Rhodnet AI"
                 width={36}
                 height={36}
                 className="rounded-xl shadow-sm border border-slate-100"
               />
-              <span className="font-heading font-extrabold text-2xl text-slate-950 tracking-tight">MalliChepp</span>
+              <span className="font-heading font-extrabold text-2xl text-slate-950 tracking-tight">Rhodnet AI</span>
               <span className="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full border border-blue-100">
-                × Rhodnet AI
+                × Mallichepp
               </span>
             </div>
             <p className="text-slate-500 text-sm leading-relaxed mb-8 font-medium">
@@ -46,7 +46,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-4">
               <a
-                href="https://github.com"
+                href="https://github.com/vishnucax"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 rounded-full bg-slate-50 border border-slate-200 flex items-center justify-center text-slate-500 hover:text-slate-900 hover:bg-slate-100 hover:shadow-md hover:-translate-y-1 transition-all duration-300"
@@ -54,7 +54,7 @@ export default function Footer() {
                 <GitHubIcon className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/vishnu-k-7-"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 rounded-full bg-slate-50 border border-slate-200 flex items-center justify-center text-slate-500 hover:text-blue-600 hover:bg-blue-50 hover:shadow-md hover:border-blue-200 hover:-translate-y-1 transition-all duration-300"
@@ -136,9 +136,9 @@ export default function Footer() {
           <p className="text-slate-500 font-medium text-sm text-center md:text-left">
             © {new Date().getFullYear()} <strong className="text-slate-900">MalliChepp × Rhodnet AI</strong>. All rights reserved.
           </p>
-          <div className="flex items-center gap-2 text-slate-500 font-medium text-sm bg-slate-50 px-4 py-2 rounded-full border border-slate-100">
-            Built with <span className="text-rose-500 animate-pulse">❤️</span> by LEAD College MCA Students
-          </div>
+          <a href="https://vishnucax.github.io" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-slate-500 font-medium text-sm bg-slate-50 px-4 py-2 rounded-full border border-slate-100 no-underline hover:underline">
+            Designed & Developed By Vishnu K
+          </a>
         </div>
       </div>
     </footer>

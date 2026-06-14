@@ -52,14 +52,14 @@ export default function Navbar() {
             <a href="#" className="flex items-center gap-2.5 group">
               <div className="relative w-9 h-9 rounded-xl overflow-hidden shadow-sm border border-slate-200/50 group-hover:shadow-md transition-shadow duration-300">
                 <Image
-                  src="/mallichepp-logo.png"
-                  alt="MalliChepp"
+                  src="/rhodnet-logo.png"
+                  alt="Rhodnet AI"
                   fill
                   className="object-contain bg-white"
                 />
               </div>
               <span className="font-heading font-extrabold text-lg sm:text-xl tracking-tight text-slate-900 group-hover:text-blue-600 transition-colors duration-300">
-                MalliChepp
+                Rhodnet AI
               </span>
             </a>
             
@@ -70,7 +70,7 @@ export default function Navbar() {
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
               </span>
               <span className="text-[11px] font-semibold tracking-wide text-slate-600">
-                × Rhodnet AI
+                × Mallichepp
               </span>
             </div>
           </div>

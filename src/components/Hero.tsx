@@ -52,7 +52,7 @@ export default function Hero() {
             className="group inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full text-[13px] font-semibold bg-white/80 backdrop-blur-md border border-slate-200/80 shadow-[0_8px_20px_rgb(0,0,0,0.03)] mb-10"
           >
             <Zap className="w-4 h-4 text-cyan-500 group-hover:text-cyan-600 transition-colors" />
-            <span className="text-slate-500">Introducing <span className="text-slate-950">LEAD College × Rhodnet AI</span></span>
+            <span className="text-slate-500">Introducing <span className="text-slate-950">Mallichepp × Rhodnet AI</span></span>
           </motion.div>
 
           {/* Cinematic Heading */}
